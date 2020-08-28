@@ -1,4 +1,4 @@
-<div class="bg">
+<!-- <div class="bg">
 <button mat-button (click)="openDialog()">Open dialog</button>
     <br/>
     <label>Please Enter the Parent Name: </label> 
@@ -10,8 +10,8 @@
     {{childName}}
     <app-state-detail [parentName]='name' (onNameChange)='onChildNameChange($event)'> </app-state-detail>
 
-</div>
-    <!-- <table class="table table-striped">
+</div> -->
+    <table class="table table-striped">
         <thead class="thead-dark">
             <tr>
                 <th>Name <span class="float-right"></span></th>
@@ -28,4 +28,4 @@
                 <td [ngClass]="getClass(pop.populationDensity)">{{pop.populationDensity | number:'1.0-3'}}</td>
             </tr>
         </tbody>
-    </table> -->
+    </table>
