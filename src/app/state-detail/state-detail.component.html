@@ -1,0 +1,11 @@
+<div class="bg">
+{{name}} <br><br>
+<label>Please enter your Name: </label> <br><br>
+<input type="text" [ngModel]='enteredName' (ngModelChange)="onInputChange($event)">
+<h2>Entered value is: </h2>
+{{enteredName}}
+
+<h2>Parent Name is:</h2>
+{{parentName}}
+
+</div>
